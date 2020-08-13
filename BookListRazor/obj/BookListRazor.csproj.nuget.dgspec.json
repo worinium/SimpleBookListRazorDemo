@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wori Hearty Alapher\\Desktop\\Active Projects\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {}
+    "D:\\GitHubRepos\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wori Hearty Alapher\\Desktop\\Active Projects\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {
+    "D:\\GitHubRepos\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wori Hearty Alapher\\Desktop\\Active Projects\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
+        "projectUniqueName": "D:\\GitHubRepos\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
         "projectName": "BookListRazor",
-        "projectPath": "C:\\Users\\Wori Hearty Alapher\\Desktop\\Active Projects\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
-        "packagesPath": "C:\\Users\\Wori Hearty Alapher\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wori Hearty Alapher\\Desktop\\Active Projects\\BookListRazor\\BookListRazor\\obj\\",
+        "projectPath": "D:\\GitHubRepos\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubRepos\\BookListRazor\\BookListRazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Wori Hearty Alapher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -27,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Wori Hearty Alapher\\AppData\\Local\\Esri\\NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,6 +77,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -87,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

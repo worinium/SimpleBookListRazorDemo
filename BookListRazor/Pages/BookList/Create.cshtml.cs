@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BookListRazor.Model;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Threading.Tasks;
 
 namespace BookListRazor.Pages.BookList
 {
@@ -13,9 +15,19 @@ namespace BookListRazor.Pages.BookList
         }
         [BindProperty]
         public Book Book { get; set; }
-        public void OnGet()
+        
+        public async Task<IActionResult> OnPost()
         {
-
+            if (ModelState.IsValid)
+            {
+                await db.Books.AddAsync(Book);
+                await db.SaveChangesAsync();
+                return RedirectToPage("Index");
+            }
+            else
+            {
+                return Page();
+            }
         }
 
     }

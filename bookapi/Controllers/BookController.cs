@@ -23,17 +23,17 @@ namespace bookapi.Controllers
         {
             return Json(new { data = db.Books.ToList() });
         }
-        [HttpPost]
-        public async Task<IActionResult> OnPost()
-        {
-            if (ModelState.IsValid)
-            {
-                await db.Books.AddAsync(Book);
-                await db.SaveChangesAsync();
-                return RedirectToPage("Index");
-            }
+        //[HttpPost]
+        //public async Task<IActionResult> OnPost()
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        await db.Books.AddAsync(Book);
+        //        await db.SaveChangesAsync();
+        //        return RedirectToPage("Index");
+        //    }
 
-        }
+        //}
 
     }
 }
